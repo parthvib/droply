@@ -1,0 +1,56 @@
+body{
+    width: auto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#box-1{
+  height: auto;
+    width: 20rem;
+    border: 2px solid red;
+    margin: auto;
+    align-items: center;
+    padding: auto;
+    margin-top: 2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding: 1em;
+}
+
+.grid{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: black;
+    display: none ;
+    border: 0.5px solid black;
+}
+.hexValue{
+    margin-left:0.5em;
+    font-size:1.5em ;
+}
+.colors{
+    display: flex;
+   
+   
+}
+button{
+
+    width: 15rem;
+    padding: 10px;
+    font: 1.5em sans-serif;
+    border: none;
+    background-color: rgb(8, 129, 194);
+    color: white;
+    border-radius: 0.5em;
+    transition:0.5s;
+    font-size: larger;
+    margin-top: 2rem;   
+    margin-left: 10%; 
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color:rgb(175, 228, 255);
+    color:rgb(4, 106, 162)
+}
